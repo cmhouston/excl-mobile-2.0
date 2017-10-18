@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<data>
+	<!-- This is the path to the JSON that grabs the Wordpress data -->
+	<json_path><![CDATA[http://excl.dreamhosters.com/prod/wp-json/v01/excl/museum/81]]></json_path>
+	
+	<!-- This is the path to the Museum Info page -->
+	<website><![CDATA[http://www.cmhouston.org/]]></website>
+	
+	<!-- This is the base height used for scaling of interface elements -->
+	<scale_height>1200</scale_height>
+	
+	<!-- This is the number in seconds to activate the kiosk mode popup -->
+	<kiosk_delay>4</kiosk_delay> 
+	
+	<!-- The following are for social sharing of Posts -->
+	<share_subject><![CDATA[Check this out from the Childrens Museum of Houston!]]></share_subject> 
+	<share_mssg><![CDATA[Check this out from the Childrens Museum of Houston!]]></share_mssg> 
+	<ios_link><![CDATA[https://itunes.apple.com/us/app/more-cmh/id904388987?mt=8]]></ios_link>
+	<android_link><![CDATA[https://play.google.com/store/apps/details?id=org.cmhouston.morecmh&hl=en]]></android_link>
+	<download_text><![CDATA[Download the Children's Museum of Houston More App]]></download_text>
+	<colors>
+		<item>
+			<title>blue</title>
+			<hex>0x006db7</hex>
+		</item>
+		<item>
+			<title>purple</title>
+			<hex>0x652d90</hex>
+		</item>
+		<item>
+			<title>magenta</title>
+			<hex>0xeb008b</hex>
+		</item>
+		<item>
+			<title>yellow</title>
+			<hex>0xfcaf17</hex>
+		</item>
+		<item>
+			<title>light-green</title>
+			<hex>0x98c21f</hex>
+		</item>
+		<item>
+			<title>dark-green</title>
+			<hex>0x009345</hex>
+		</item>
+		<item>
+			<title>orange</title>
+			<hex>0xf58220</hex>
+		</item>
+		<item>
+			<title>blue</title>
+			<hex>0x006db7</hex>
+		</item>
+		<item>
+			<title>purple</title>
+			<hex>0x652d90</hex>
+		</item>
+		<item>
+			<title>magenta</title>
+			<hex>0xeb008b</hex>
+		</item>
+		<item>
+			<title>yellow</title>
+			<hex>0xfcaf17</hex>
+		</item>
+		<item>
+			<title>light-green</title>
+			<hex>0x98c21f</hex>
+		</item>
+		<item>
+			<title>dark-green</title>
+			<hex>0x009345</hex>
+		</item>
+		<item>
+			<title>orange</title>
+			<hex>0xf58220</hex>
+		</item>
+	</colors>
+	
+	<!-- The following are quotes shown on Component page loading screens -->
+	<loading_quotes>
+		<quote><![CDATA[Finding some fun...]]></quote>
+		<quote><![CDATA[Firing Up!]]></quote>
+		<quote><![CDATA[Get Excited!]]></quote>
+		<quote><![CDATA[Activities are on the way!]]></quote>
+		<quote><![CDATA[Diving In!]]></quote>
+		<quote><![CDATA[Cooking up some fun!]]></quote>
+		<quote><![CDATA[Turning on the engines!]]></quote>
+		<quote><![CDATA[Sounding the horn!]]></quote>
+		<quote><![CDATA[Getting pumped...]]></quote>
+	</loading_quotes>
+	
+	
+</data>
