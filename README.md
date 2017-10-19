@@ -139,7 +139,7 @@ ExCL is now in version 2.0.  It was created based on feedback and reccomendation
 
 ## UX Enhancements to Current Features ##
 
-The following is a list of some of the improvements from v1.4 ro v2.0
+The following is a list of some of the improvements from v1.4 to v2.0
 
 - Improved display of posts while age filtering is turned on.
 - Better usage of screen space on most page layouts.
@@ -156,6 +156,7 @@ The following is a list of some of the improvements from v1.4 ro v2.0
 - Fixed issue with the app crashing in Kiosk Mode
 - Email and text sharing of posts working with optional GoViral plugin
 - Database saves/ retrieves selected Age Filters
+- Introduced multi-threading to cache loaded images
 
 ## Reporting Bugs ##
 
