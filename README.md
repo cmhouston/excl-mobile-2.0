@@ -122,7 +122,7 @@ ExCL also uses the [GoViral.ane extension by Milkman games](https://www.milkmanp
 	     <extensionID>com.milkmangames.extensions.GoViral</extensionID>
 	</extensions>
 
-Adobe Air allows developers to store global information. in ExCL all global variables are created from [GlobalVarContainer.as](src/GlobalVarContainer.as). Many of the Global Variables are set in [config.php](bin/config.php).  [GlobalVarContainer.as](bin/GlobalVarContainer.as)also parses the exhibit/ component/ post data. 
+Adobe Air allows developers to store global information. in ExCL all global variables are created from [GlobalVarContainer.as](src/GlobalVarContainer.as). Many of the Global Variables are set in [config.php](bin/config.php).  [GlobalVarContainer.as](bin/GlobalVarContainer.as) also parses the exhibit/ component/ post data. 
 
 
 
