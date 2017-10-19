@@ -5,8 +5,8 @@ A guide for setting up Titanium and beginning mobile development with ExCL
 
 1. [Introduction to ExCL](#exclIntro)
 - [WordPress](https://github.com/cmhouston/excl-cms#wordpress)
-- [Adobe Air](#adobeair)
-     1. [Introduction to Adobe Air](#introToAdobeAir)
+- [Adobe Air And FlashDevelop](#adobeair)
+     - [Introduction to Adobe Air](#introToAdobeAir)
      - [Getting Started](#gettingStarted)
      - [Running the ExCL App](#runningExCL)
      - [Debugging](#debugging)
@@ -122,7 +122,7 @@ ExCL also uses the [GoViral.ane extension by Milkman games](https://www.milkmanp
 	     <extensionID>com.milkmangames.extensions.GoViral</extensionID>
 	</extensions>
 
-Adobe Air allows developers to store global information. in ExCL all global variables are created from [GlobalVarContainer.as](src/GlobalVarContainer.as). Many of the Global Variables are set in config.php. GlobalVarContainer.as also parses the exhibit/ component/ post data. 
+Adobe Air allows developers to store global information. in ExCL all global variables are created from [GlobalVarContainer.as](src/GlobalVarContainer.as). Many of the Global Variables are set in [config.php](bin/config.php).  [GlobalVarContainer.as](bin/GlobalVarContainer.as)also parses the exhibit/ component/ post data. 
 
 
 
