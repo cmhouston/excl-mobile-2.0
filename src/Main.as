@@ -162,7 +162,7 @@ package
 				tracer.title_txt.htmlText = myWorker.state;
 			}
 			
-			if(AppUtility.isMobile())GoViral.create();
+			if(AppUtility.isMobile()&&GlobalVarContainer.SHARING_ENABLED)GoViral.create();
 		}
 		
 		private function onXMLLoaded(e:XMLUtilityEvent):void 

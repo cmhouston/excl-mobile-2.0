@@ -12,12 +12,18 @@
 	<!-- This is the number in seconds to activate the kiosk mode popup -->
 	<kiosk_delay>4</kiosk_delay> 
 	
+	
+	<!-- This is a switch for Post sharing.  Set as false if the GoViral Plugin is not in use -->
+	<sharing><![CDATA[true]]></sharing> 
+	
 	<!-- The following are for social sharing of Posts -->
 	<share_subject><![CDATA[Check this out from the Childrens Museum of Houston!]]></share_subject> 
 	<share_mssg><![CDATA[Check this out from the Childrens Museum of Houston!]]></share_mssg> 
 	<ios_link><![CDATA[https://itunes.apple.com/us/app/more-cmh/id904388987?mt=8]]></ios_link>
 	<android_link><![CDATA[https://play.google.com/store/apps/details?id=org.cmhouston.morecmh&hl=en]]></android_link>
 	<download_text><![CDATA[Download the Children's Museum of Houston More App]]></download_text>
+	
+	<!-- This is the base array of colors for Component Category rows -->
 	<colors>
 		<item>
 			<title>blue</title>

@@ -49,6 +49,7 @@
 		 public static var IOS_LINK:String = "";
 		 public static var ANDROID_LINK:String = "";
 		 public static var DOWNLOAD_TEXT:String = "";
+		 public static var SHARING_ENABLED:Boolean = true;
 		 
 		 public static var MAC_OS:Boolean = false;
 		 
@@ -94,6 +95,7 @@
 			IOS_LINK = xml.ios_link;
 			ANDROID_LINK = xml.android_link;
 			DOWNLOAD_TEXT = xml.download_text;
+			SHARING_ENABLED = xml.sharing;
 			
 			INFO_PAGE_PATH = xml.website;
 			SCALE_HEIGHT = Number(xml.scale_height);

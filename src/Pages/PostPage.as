@@ -103,7 +103,7 @@ package Pages
 			postButtons.btn_comment.x = sw / 2 + 40;*/
 			postButtons.btn_share.visible = false;
 			postButtons.btn_comment.visible = false;
-			if (AppUtility.isMobile()){			
+			if (AppUtility.isMobile()&&GlobalVarContainer.SHARING_ENABLED){			
 			
 				if (GoViral.goViral.isEmailAvailable()||GoViral.goViral.isSocialServiceAvailable(GVSocialServiceType.SMS)){
 					postButtons.btn_share.visible = true;
